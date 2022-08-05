@@ -3,6 +3,7 @@ import '../css/NavBar.css'
 import { Avatar } from '@mui/material'
 // import SettingsEthernetIcon from '@mui/icons-material/SettingsEthernet';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
+import GitContributions from './GitContributions';
 
 function NavBar() {
   return (
@@ -14,6 +15,7 @@ function NavBar() {
                     src='dHoey.jpg'
                     sx={{ width: 75, height: 75 }}
                 />
+                {/* <GitContributions /> */}
             </a>
             <div className='hamburger'>
                 {/* <SettingsEthernetIcon /> */}

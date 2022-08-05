@@ -32,3 +32,15 @@ li {
 .mainContent {
   margin-top: 90px;
 }
+
+
+
+.gitContributions h6 {
+  margin-top: 0;
+  margin-left: 400px;
+}
+
+.contributionsImage {
+  width: 600px;
+  height: auto;
+}
