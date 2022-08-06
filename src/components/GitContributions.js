@@ -1,4 +1,5 @@
 import React from 'react'
+import '../css/GitContributions.css'
 
 function GitContributions() {
   return (

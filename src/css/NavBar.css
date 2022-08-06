@@ -29,8 +29,6 @@
 }
 
 .header .nav-item a:hover {
-    /* padding-bottom: 12px;
-    border-bottom: 3px solid white; */
     color: #014f86;
 }
 
@@ -40,8 +38,13 @@
     color: white;
     border-radius: 5px;
     padding: 5px;
-    margin: 12px 0 0 12px;
+    margin: -5px 0 0 5px;
+}
 
+.resumeButton:hover {
+    color: #014f86;
+    border: 1px solid #014f86;
+    cursor: pointer;
 }
 
 .hamburger {
@@ -51,7 +54,7 @@
 @media screen and (max-width:940px) {
     .header {
         max-width: 100%;
-        background-color: rgba(0,0,0,.9);
+        /* background-color: rgba(0,0,0,.9); */
     }
 
     .header .navbar {
@@ -64,15 +67,30 @@
 
     .nav-menu {
         position: fixed;
-        left: 0;
+        left: -100%;
         top: 5rem;
         flex-direction: column;
-        background: rgba(0,0,0,.9);
-        width: 100%;
+        background: rgba(216, 200, 130, 0.9);
+        border-radius: 5px;
+        width: 100px;
         height: 90vh;
         z-index: 999;
         text-align: center;
         transition: .3s;
 
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        display: flex;
+        justify-content: center;
+        margin: 0 50px 0 0;
+    }
+
+    .resumeButton {
+        margin: 0 ;
     }
 }

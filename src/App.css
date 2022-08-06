@@ -1,6 +1,8 @@
 .App {
+  display: flex;
   position: relative;
   color: white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 .App::before {
@@ -30,17 +32,6 @@ li {
 }
 
 .mainContent {
-  margin-top: 90px;
+  margin: 90px 0 0 20px;
 }
 
-
-
-.gitContributions h6 {
-  margin-top: 0;
-  margin-left: 400px;
-}
-
-.contributionsImage {
-  width: 600px;
-  height: auto;
-}

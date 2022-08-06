@@ -1,11 +1,18 @@
-import React from 'react'
+import React, {useState} from 'react'
 import '../css/NavBar.css'
 import { Avatar } from '@mui/material'
-// import SettingsEthernetIcon from '@mui/icons-material/SettingsEthernet';
-import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
-import GitContributions from './GitContributions';
+// import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
+import MoreVertIcon from '@mui/icons-material/MoreVert';
+import CloseIcon from '@mui/icons-material/Close';
 
 function NavBar() {
+
+  const [click, setClick] = useState(false)
+
+  const handleClick = () => {
+    setClick(!click)
+  }
+
   return (
     <div className='header'>
         <nav className='navbar'>
@@ -13,15 +20,14 @@ function NavBar() {
                 <Avatar
                     alt='Danielle Hoey' 
                     src='dHoey.jpg'
-                    sx={{ width: 75, height: 75 }}
+                    sx={{ width: 90, height: 90 }}
                 />
-                {/* <GitContributions /> */}
             </a>
-            <div className='hamburger'>
-                {/* <SettingsEthernetIcon /> */}
-                <MoreHorizIcon />
+            <div className='hamburger' onClick={handleClick}>
+                {click ? <CloseIcon /> : <MoreVertIcon />}
+                
             </div>
-            <ul className='nav-menu'>
+            <ul className={click ? "nav-menu active" : "nav-menu"}>
                 <li className='nav-item'>
                     <a href='/'>
                         about
@@ -42,7 +48,7 @@ function NavBar() {
                         contact
                     </a>
                 </li>
-                <li>
+                <li className='nav-item'>
                     <button className='resumeButton'>
                         Resume
                     </button>
