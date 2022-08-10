@@ -1,0 +1,26 @@
+.contactExpanded {
+    display: flex;
+    flex-direction: column;
+    color: #014f86;
+    border: 1px solid #014f86;
+    width: 80vw;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, .5);
+    margin: 20px 0 0 40px;
+    align-items: center;
+}
+
+.contactExpandedInfoSm{
+    display: none;
+}
+
+@media screen and (max-width:700px) {
+    .contactExpandedInfoSm {
+        display: block;
+        text-align: center;
+    }
+
+    .contactExpandedInfoLg {
+        display: none;
+    }
+}

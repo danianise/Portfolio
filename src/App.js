@@ -4,6 +4,7 @@ import Title from './components/Title';
 import Contact from './components/Contact';
 import About from './components/About';
 import Projects from './components/Projects';
+import Skills from './components/Skills';
 import ContactExpanded from './components/ContactExpanded'
 import GitContributions from './components/GitContributions';
 
@@ -16,9 +17,10 @@ function App() {
       <div className='mainContent'>
         {/* <Title /> */}
         {/* <About /> */}
-        <Projects />
+        {/* <Projects /> */}
+        {/* <Skills /> */}
         {/* <GitContributions /> */}
-        {/* <ContactExpanded /> */}
+        <ContactExpanded />
       </div>
       
     </div>

@@ -18,11 +18,7 @@ function NavBar() {
     <div className='header'>
         <nav className='navbar'>
 
-        <div className='hamburger' onClick={handleClick}>
-                {click ? <CloseIcon /> : <MenuIcon />} 
-        </div>
-
-            <a href='/' className='logo'>
+            <a href='/' className='avatar'>
                 <Avatar
                     alt='Danielle Hoey' 
                     src='dHoey.jpg'
@@ -60,6 +56,9 @@ function NavBar() {
                 </li>
 
             </ul>
+            <div className='hamburger' onClick={handleClick}>
+                    {click ? <CloseIcon /> : <MenuIcon />} 
+            </div>
         </nav>
     </div>
   )

@@ -1,0 +1,22 @@
+.skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid #014f86;
+    width: 80vw;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, .5);
+    margin: 20px 0 0 40px;
+}
+
+.skills li{
+    margin: 25px;
+    color: #014f86;
+    text-align: center;
+}
+
+.skillsIcon {
+    height: 50px;
+    width: auto;
+    color: #014f86;
+}
