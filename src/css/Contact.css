@@ -1,8 +1,8 @@
 .contact {
-    float: left;
+    left: 1%;
     bottom: 0;
     padding-top: 55%;
-    position: sticky;
+    position: fixed;
     margin-top: 0;
 }
 
@@ -15,4 +15,11 @@
 
 .icon{
     margin: 8px 0 8px 0;
+    transition: transform ease 300ms;
 }
+
+.icon:hover {
+    fill: white;
+    transform: translate(0, -5px);
+}
+

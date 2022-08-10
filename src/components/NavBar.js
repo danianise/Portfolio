@@ -2,7 +2,8 @@ import React, {useState} from 'react'
 import '../css/NavBar.css'
 import { Avatar } from '@mui/material'
 // import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
-import MoreVertIcon from '@mui/icons-material/MoreVert';
+import MenuIcon from '@mui/icons-material/Menu';
+// import MoreVertIcon from '@mui/icons-material/MoreVert';
 import CloseIcon from '@mui/icons-material/Close';
 
 function NavBar() {
@@ -16,17 +17,19 @@ function NavBar() {
   return (
     <div className='header'>
         <nav className='navbar'>
+
+        <div className='hamburger' onClick={handleClick}>
+                {click ? <CloseIcon /> : <MenuIcon />} 
+        </div>
+
             <a href='/' className='logo'>
                 <Avatar
                     alt='Danielle Hoey' 
                     src='dHoey.jpg'
-                    sx={{ width: 90, height: 90 }}
+                    sx={{ marginTop:'15px', width: 90, height: 90 }}
                 />
             </a>
-            <div className='hamburger' onClick={handleClick}>
-                {click ? <CloseIcon /> : <MoreVertIcon />}
-                
-            </div>
+            
             <ul className={click ? "nav-menu active" : "nav-menu"}>
                 <li className='nav-item'>
                     <a href='/'>
@@ -49,9 +52,11 @@ function NavBar() {
                     </a>
                 </li>
                 <li className='nav-item'>
-                    <button className='resumeButton'>
-                        Resume
-                    </button>
+                    <a href='resume.pdf' target='_blank'>
+                        <button className='resumeButton'>
+                            Resume
+                        </button>
+                    </a>
                 </li>
 
             </ul>

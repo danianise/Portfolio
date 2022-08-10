@@ -10,7 +10,7 @@ function GitContributions() {
                 src="https://ghchart.rshah.org/d4af37/danianise"
                 alt="danianise's GitHub Contributions"
             />
-            <h6>
+            <h6 className='contributionsTag'>
                 danianise's GitHub contributions
             </h6>
         </div>

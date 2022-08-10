@@ -1,0 +1,13 @@
+.title {
+    display: flex;
+    flex-direction: column;
+    margin: 10% 0 0 40px;
+}
+
+.title h1 {
+    font-size: 60px;
+}
+
+.name{
+    color: #014f86;
+}

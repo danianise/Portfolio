@@ -63,14 +63,17 @@
     
     .hamburger {
         display: block;
+        margin: 15px 10px 0 0;
+        cursor: pointer;
     }
 
     .nav-menu {
+        color:#014f86;
         position: fixed;
         left: -100%;
         top: 5rem;
         flex-direction: column;
-        background: rgba(216, 200, 130, 0.9);
+        background: rgba(255, 255, 255, 0.5);
         border-radius: 5px;
         width: 100px;
         height: 90vh;
@@ -90,7 +93,18 @@
         margin: 0 50px 0 0;
     }
 
+    .nav-item:hover {
+        color:darkgray;
+    }
+
     .resumeButton {
         margin: 0 ;
+        color:#014f86;
+        border: 1px solid #014f86;
+    }
+
+    .resumeButton:hover{
+        color:darkgray;
+        border: 1px solid darkgray;
     }
 }
