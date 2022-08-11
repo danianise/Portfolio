@@ -40,11 +40,12 @@ li {
 @media screen and (max-width:940px) {
  
   .App::before {
-    background-image: url('../public/smallDaisies.jpeg');
-    opacity: 0.55;
+    /* background-image: url('../public/smallDaisies.jpeg'); */
+    /* opacity: 0.55; */
+    background-size: 100% 100%;
   }
 
   .mainContent {
-    margin: 90px 0 25px 55px;
+    margin: 90px 25px 0 55px;
   }
 }
