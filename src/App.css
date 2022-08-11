@@ -37,3 +37,11 @@ li {
   flex-direction: column;
 }
 
+@media screen and (max-width:940px) {
+  .App::before{
+    background-image: url('../public/smallDaisies.png');
+  }
+  .mainContent {
+    margin: 90px 0 0 50px;
+  }
+}
