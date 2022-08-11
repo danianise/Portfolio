@@ -38,12 +38,13 @@ li {
 }
 
 @media screen and (max-width:940px) {
-  .App::before{
-    background-image: url('../public/smallDaisies.png');
-    /* background-size:auto; */
-    /* background-repeat: repeat; */
+ 
+  .App::before {
+    background-image: url('../public/smallDaisies.jpeg');
+    opacity: 0.55;
   }
+
   .mainContent {
-    margin: 90px 0 0 55px;
+    margin: 90px 0 25px 55px;
   }
 }
