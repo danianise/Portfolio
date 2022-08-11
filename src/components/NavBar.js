@@ -29,33 +29,43 @@ function NavBar() {
             <ul className={click ? "nav-menu active" : "nav-menu"}>
                 
                 <li className='nav-item'>
-                    <Link to='title' spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>
+                    {/* <Link to='title' spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}> */}
+                    <a href='/' onClick={closeMenu}>
                         home
-                    </Link>
+                    </a>
+                    {/* </Link> */}
                 </li>
                 
                 <li className='nav-item'>
-                    <Link to='about' spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>
+                    {/* <Link to='about' spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}> */}
+                    <a href='/about' onClick={closeMenu}>
                         about
-                    </Link>
+                    </a>
+                    {/* </Link> */}
                 </li>
 
                 <li className='nav-item'>
-                    <Link to='projects' spy={true} smooth={true} offset={-120} duration={500} onClick={closeMenu}>
+                    {/* <Link to='projects' spy={true} smooth={true} offset={-120} duration={500} onClick={closeMenu}> */}
+                    <a href='/projects' onClick={closeMenu}>
                         projects
-                    </Link>
+                    </a>
+                    {/* </Link> */}
                 </li>
 
                 <li className='nav-item'>
-                    <Link to='skills' spy={true} smooth={true} offset={-120} duration={500} onClick={closeMenu}>
+                    {/* <Link to='skills' spy={true} smooth={true} offset={-120} duration={500} onClick={closeMenu}> */}
+                    <a href='/skills' onClick={closeMenu}>
                         skills
-                    </Link>
+                    </a>
+                    {/* </Link> */}
                 </li>
 
                 <li className='nav-item'>
-                    <Link to='contact' spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>
+                    {/* <Link to='contact' spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}> */}
+                    <a href='/contact' onClick={closeMenu}>
                         contact
-                    </Link>
+                    </a>
+                    {/* </Link> */}
                 </li>
 
                 <li className='nav-item'>

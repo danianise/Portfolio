@@ -1,15 +1,18 @@
 import React from 'react'
 import '../css/Projects.css'
 import GitContributions from './GitContributions'
+import {motion} from 'framer-motion'
 
 function Projects() {
   return (
   
-    <div className='projectsContent'>
-
-        <div className='contributions'>
-            {/* <GitContributions className='gitContributions'/> */}
-        </div>
+    // <div className='projectsContent'>
+    <motion.div
+        className='projectsContent'
+        initial={{opacity: 0}}
+        animate={{opacity: 1}}
+        exit={{opacity: 0}}
+    >
 
         <div className='projects'>
             
@@ -128,7 +131,8 @@ function Projects() {
 
         </div>
 
-    </div>
+    {/* </div> */}
+    </motion.div>
   )
 }
 

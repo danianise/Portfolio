@@ -1,9 +1,17 @@
 import React from 'react'
 import '../css/About.css'
+import {motion} from 'framer-motion'
 
 function About() {
   return (
-    <div className='about' id='about'>
+    // <div className='about' id='about'>
+    <motion.div
+      className='about'
+      id='about'
+      initial={{opacity: 0}}
+      animate={{opacity: 1}}
+      exit={{opacity: 0}}
+    >
         <img className='dHoeyImg' src='dHoey.jpg'/>
 
         <div className='aboutContent'>
@@ -15,7 +23,8 @@ function About() {
               I have a Bachelor of Business Administration from the Isenberg School of Management at the University of Massachusetts, Amherst, 15 years experience in retail customer service, and I have recently completed the Software Engineering Immersive course with General Assembly.
           </p>
         </div>
-    </div>
+    {/* </div> */}
+    </motion.div>
   )
 }
 

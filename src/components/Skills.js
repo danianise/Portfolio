@@ -3,11 +3,18 @@ import '../css/Skills.css'
 import GitContributions from './GitContributions'
 import {FaHtml5, FaCss3Alt, FaPython, FaReact, FaNodeJs, FaGithub} from 'react-icons/fa'
 import {SiJavascript, SiMongodb, SiPostgresql, SiExpress, SiDjango, SiJson, SiHeroku, SiNetlify, SiPostman} from 'react-icons/si'
+import {motion} from 'framer-motion'
 
 function Skills() {
 
   return (<>
-    <div className='skills'>
+    {/* <div className='skills'> */}
+    <motion.div
+      className='skills'
+      initial={{opacity: 0}}
+      animate={{opacity: 1}}
+      exit={{opacity: 0}}
+    >
       
         <li>
           <FaHtml5 className='skillsIcon'/><br />HTML
@@ -64,13 +71,9 @@ function Skills() {
         <li>
           <SiNetlify className='skillsIcon'/><br />Netlify
         </li>
-        <div className='skillsContributions'>
-          <GitContributions />
-        </div>
-    </div>
-    {/* <div className='gitContributions'>
-      <GitContributions />
-    </div> */}
+        
+    </motion.div>
+    {/* </div> */}
   </>)
 }
 

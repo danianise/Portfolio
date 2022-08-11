@@ -5,11 +5,19 @@ import {AiOutlineMail, AiFillLinkedin} from 'react-icons/ai'
 import {FiPhone} from 'react-icons/fi'
 import {GoLocation} from 'react-icons/go'
 import {BsGithub} from 'react-icons/bs'
+import {motion} from 'framer-motion'
 
 
 function ContactExpanded() {
-  return (<div id='contact'>
-
+  return (
+      
+      // <div id='contact'>
+      <motion.div
+        id='contact'
+        initial={{opacity: 0}}
+        animate={{opacity: 1}}
+        exit={{opacity: 0}}
+      >
         <div className='contactExpandedHead'>
           <h1>
             Contact Me
@@ -54,7 +62,8 @@ function ContactExpanded() {
         </li>
 
     </div>
-  </div>)
+  </motion.div>
+  )
 }
 
 export default ContactExpanded
