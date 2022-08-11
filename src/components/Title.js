@@ -3,7 +3,7 @@ import '../css/Title.css'
 
 function Title() {
   return (
-    <div className='title'>
+    <div className='title' id='title'>
         <h1>
             <span className='name'>
               Danielle Hoey

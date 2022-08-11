@@ -1,5 +1,5 @@
 .contactExpanded {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     color: #014f86;
     border: 1px solid #014f86;
@@ -7,20 +7,41 @@
     border-radius: 10px;
     background: rgba(255, 255, 255, .5);
     margin: 20px 0 0 40px;
-    align-items: center;
+    align-items: center; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #014f86;
+    border: 1px solid #014f86;
+    width: 80vw;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, .5);
+    margin: 20px 0 60vh 40px;
+    justify-content: center;
 }
 
-.contactExpandedInfoSm{
-    display: none;
+.contactExpanded > a{
+    transition: transform ease 300ms;
 }
 
-@media screen and (max-width:700px) {
-    .contactExpandedInfoSm {
-        display: block;
-        text-align: center;
-    }
+.contactExpanded > a:hover{
+    transform: translate(0, -5px);
+}
 
-    .contactExpandedInfoLg {
-        display: none;
-    }
+.contactExpanded > li {
+    /* padding: 5px; */
+    margin: 25px;
+    color: #014f86;
+    text-align: center;
+}
+
+.contactExpandedIcon {
+    height: 50px;
+    width: auto;
+    color: #014f86;
+}
+
+.contactExpandedHead {
+    text-align: center;
+    color: #014f86;
 }

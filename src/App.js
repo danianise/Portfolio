@@ -1,4 +1,5 @@
 import './App.css';
+import { Route, Routes } from "react-router-dom";
 import NavBar from './components/NavBar';
 import Title from './components/Title';
 import Contact from './components/Contact';
@@ -20,6 +21,20 @@ function App() {
         <Projects />
         <Skills />
         <ContactExpanded />
+
+        {/* <Routes>
+          <Route path='/' element={<Title />} />
+    
+          <Route path='/about' element={<About />} />
+          
+          <Route path='/projects' element={<Projects />} />
+           
+          <Route path='/skills' element={<Skills />} />
+
+          <Route path='/contact' element={<ContactExpanded />} />
+
+        </Routes> */}
+        
       </div>
       
     </div>
