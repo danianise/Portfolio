@@ -32,13 +32,17 @@
     .about > img {
         width: 150px;
         height: 150px;
-        align-self:center;
+        /* align-self:center; */
         /* margin-left: 90px; */
         /* margin-right: 90px; */
     }
 
     .about {
+        display: flex;
         flex-direction: column;
+        align-self: center;
+        align-items: center;
+        text-align:center;
     }
 
     /* .aboutContent {
