@@ -42,10 +42,11 @@ li {
   .App::before {
     /* background-image: url('../public/smallDaisies.jpeg'); */
     /* opacity: 0.55; */
-    background-size: 100% 100%;
+    background-size: 100% 180%;
+    background-position: bottom;
   }
 
   .mainContent {
-    margin: 90px 25px 0 55px;
+    margin: 90px 55px 0 55px;
   }
 }
