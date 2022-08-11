@@ -42,7 +42,7 @@ li {
   .App::before {
     /* background-image: url('../public/smallDaisies.jpeg'); */
     /* opacity: 0.55; */
-    background-size: 100% 180%;
+    background-size: 100% 100%;
     background-position: bottom;
   }
 
