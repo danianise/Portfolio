@@ -1,11 +1,12 @@
 import React from 'react'
 import '../css/Skills.css'
+import GitContributions from './GitContributions'
 import {FaHtml5, FaCss3Alt, FaPython, FaReact, FaNodeJs, FaGithub} from 'react-icons/fa'
 import {SiJavascript, SiMongodb, SiPostgresql, SiExpress, SiDjango, SiJson, SiHeroku, SiNetlify, SiPostman} from 'react-icons/si'
 
 function Skills() {
 
-  return (
+  return (<>
     <div className='skills'>
       
         <li>
@@ -63,8 +64,14 @@ function Skills() {
         <li>
           <SiNetlify className='skillsIcon'/><br />Netlify
         </li>
+        <div className='skillsContributions'>
+          <GitContributions />
+        </div>
     </div>
-  )
+    {/* <div className='gitContributions'>
+      <GitContributions />
+    </div> */}
+  </>)
 }
 
 export default Skills

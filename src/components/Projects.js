@@ -8,7 +8,7 @@ function Projects() {
     <div className='projectsContent'>
 
         <div className='contributions'>
-            <GitContributions className='gitContributions'/>
+            {/* <GitContributions className='gitContributions'/> */}
         </div>
 
         <div className='projects'>
@@ -32,7 +32,7 @@ function Projects() {
                 At the end of the game, a new screen will appear to show the user their final score
                 and give them a rating based on how well they did.
             </p>
-            <div className='HPImages'>
+            <div className='HPImages images'>
                 <img src='HPTriviaPlay.png' alt='Harry Potter Trivia game play screenshot'/>
                 <img src='HPTriviaEnd.png' alt='Harry Potter Trivia end of game screenshot'/>
             </div>
@@ -54,7 +54,7 @@ function Projects() {
                 'What's For Dinner?' is a collection of dinner recipes that can be filtered by different
                 criteria, such as ingredients or (lack of) allergens.
             </p>
-            <div className='recipeImages'>
+            <div className='recipeImages images'>
                 <img src='recipeIndex.png' alt='Index page of Whats For Dinner'/>
                 <img src='recipeEdit.gif' alt='gif of editing a recipe'/>
                 <img src='recipeSearch.gif' alt='gif of searching by ingredients'/>
@@ -80,7 +80,7 @@ function Projects() {
             see their portfolio information, update their portfolio upon change to holdings
             (buy/sell in part), and delete stocks upon sale.
             </p>
-            <div className='mockStockImages'>
+            <div className='mockStockImages images'>
                 <img src='searchStock.gif' alt='search by stock symbol'/>
                 <img src='watchlist.gif' alt='gif of editing a recipe'/>
             </div>
@@ -109,7 +109,7 @@ function Projects() {
             events. Users can register and login to view protected routes, and can also update or delete
             their own posts or comments, and update their profile information as needed.
             </p>
-            <div className='alumniNetworkImages'>
+            <div className='alumniNetworkImages images'>
                 <img src='ANLandingPage.png' alt='Alumni Network landing page'/>
                 <img src='ANProfilePage.png' alt='Alumni Network profile page'/>
                 <br />

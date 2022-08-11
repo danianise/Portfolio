@@ -1,9 +1,6 @@
 import React, {useState} from 'react'
 import '../css/NavBar.css'
-import { Avatar } from '@mui/material'
-// import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import MenuIcon from '@mui/icons-material/Menu';
-// import MoreVertIcon from '@mui/icons-material/MoreVert';
 import CloseIcon from '@mui/icons-material/Close';
 
 function NavBar() {
@@ -18,11 +15,11 @@ function NavBar() {
     <div className='header'>
         <nav className='navbar'>
 
-            <a href='/' className='avatar'>
-                <Avatar
+            <a href='/'>
+                <img
                     alt='Danielle Hoey' 
-                    src='dHoey.jpg'
-                    sx={{ marginTop:'15px', width: 90, height: 90 }}
+                    src='whitelogo.png'
+                    className='avatar'
                 />
             </a>
             
@@ -57,7 +54,7 @@ function NavBar() {
 
             </ul>
             <div className='hamburger' onClick={handleClick}>
-                    {click ? <CloseIcon /> : <MenuIcon />} 
+                    {click ? <CloseIcon sx={{color: '#014f86'}}/> : <MenuIcon sx={{color: '#014f86'}}/>} 
             </div>
         </nav>
     </div>

@@ -15,11 +15,10 @@ function App() {
       <Contact />
 
       <div className='mainContent'>
-        {/* <Title /> */}
-        {/* <About /> */}
-        {/* <Projects /> */}
-        {/* <Skills /> */}
-        {/* <GitContributions /> */}
+        <Title />
+        <About />
+        <Projects />
+        <Skills />
         <ContactExpanded />
       </div>
       

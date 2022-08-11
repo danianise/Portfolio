@@ -87,3 +87,16 @@
     border: none;
     width: 75vw;
 }
+
+@media screen and (max-width:940px){
+    .projects > h5 {
+        text-align: center;
+        margin: 0 10px 0 10px;
+    }
+
+    .images > img{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+}

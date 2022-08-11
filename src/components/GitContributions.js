@@ -7,7 +7,8 @@ function GitContributions() {
         <div className='gitContainer'>
             <img 
                 className='contributionsImage'
-                src="https://ghchart.rshah.org/d4af37/danianise"
+                // src="https://ghchart.rshah.org/d4af37/danianise"
+                src="https://ghchart.rshah.org/014f86/danianise"
                 alt="danianise's GitHub Contributions"
             />
             <h6 className='contributionsTag'>

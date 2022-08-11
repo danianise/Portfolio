@@ -6,8 +6,13 @@
     left: 0;
     z-index: 1;
     transition: .3s ease-in;
-    /* color:#014f86;
-    background:rgba(255, 255, 255, 0.5); */
+}
+
+.avatar {
+    margin-top: 50px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
 }
 
 .header .navbar {
@@ -108,5 +113,10 @@
     .resumeButton:hover{
         color:darkgray;
         border: 1px solid darkgray;
+    }
+
+    .avatar {
+        width: 50px;
+        height: 50px;
     }
 }
