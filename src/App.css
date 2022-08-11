@@ -40,8 +40,9 @@ li {
 @media screen and (max-width:940px) {
   .App::before{
     background-image: url('../public/smallDaisies.png');
+    /* background-size: contain; */
   }
   .mainContent {
-    margin: 90px 0 0 50px;
+    margin: 90px 0 0 55px;
   }
 }
