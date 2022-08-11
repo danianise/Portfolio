@@ -10,7 +10,7 @@ function About() {
       id='about'
       initial={{opacity: 0}}
       animate={{opacity: 1}}
-      exit={{opacity: 0}}
+      // exit={{opacity: 0}}
     >
         <img className='dHoeyImg' src='dHoey.jpg'/>
 

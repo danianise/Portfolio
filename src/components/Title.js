@@ -10,7 +10,7 @@ function Title() {
       id='title'
       initial={{opacity: 0}}
       animate={{opacity: 1}}
-      exit={{opacity: 0}}
+      // exit={{opacity: 0}}
     >
       {/* <div className='title' id='title'> */}
         <h1>

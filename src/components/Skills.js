@@ -13,7 +13,7 @@ function Skills() {
       className='skills'
       initial={{opacity: 0}}
       animate={{opacity: 1}}
-      exit={{opacity: 0}}
+      // exit={{opacity: 0}}
     >
       
         <li>

@@ -16,7 +16,7 @@ function ContactExpanded() {
         id='contact'
         initial={{opacity: 0}}
         animate={{opacity: 1}}
-        exit={{opacity: 0}}
+        // exit={{opacity: 0}}
       >
         <div className='contactExpandedHead'>
           <h1>
