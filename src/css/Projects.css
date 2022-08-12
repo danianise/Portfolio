@@ -83,9 +83,10 @@
     }
 
     .images > img{
+        width: 60vw;
         display: flex;
         flex-direction: column;
-        margin: 10px;
+        margin: 3px;
     }
 
     .multiCat {
