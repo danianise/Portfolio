@@ -1,12 +1,5 @@
 .projectsContent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.contributions {
-    width: fit-content;
-    height: fit-content
+    border: 1px solid transparent;
 }
 
 .projects {
@@ -18,9 +11,10 @@
     background: rgba(255, 255, 255, .5);
     color: #014f86;
     border-radius: 10px;
-    width: 80vw;
+    width: 70vw;
     height: fit-content;
-    margin: 20px 0 0 40px;
+    margin: 20px 15vw 0 15vw;
+    padding: 10px;
 }
 
 .projects h1 {
@@ -37,19 +31,9 @@
 
 .description {
     text-align: center;
-    width: 75vw;
 }
 
-.HPImages > img, .mockStockImages > img, .alumniNetworkImages > img{
-    border-radius: 10px;
-    width: 35vw;
-    height: 25vh;
-    margin: 5px;
-}
-
-.recipeImages img {
-    /* display: flex;
-    flex-direction: row; */
+.HPImages > img, .mockStockImages > img, .recipeImages > img , .alumniNetworkImages > img{
     border-radius: 10px;
     width: 25vw;
     height: 25vh;

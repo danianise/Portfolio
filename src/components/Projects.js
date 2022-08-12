@@ -60,7 +60,9 @@ function Projects() {
             <div className='recipeImages images'>
                 <img src='recipeIndex.png' alt='Index page of Whats For Dinner'/>
                 <img src='recipeEdit.gif' alt='gif of editing a recipe'/>
+                <br />
                 <img src='recipeSearch.gif' alt='gif of searching by ingredients'/>
+                <img src='allergenSearch.gif' alt='gif of filtering out allergens' />
             </div>
             <a href='https://github.com/danianise/WhatsForDinner' target='_blank'>
                 <img className='octocat' src='Octocat.png' alt='GitHub Octocat'/>

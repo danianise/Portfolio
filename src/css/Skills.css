@@ -1,12 +1,16 @@
 .skills {
+    border: 1px solid transparent;
+}
+
+.skillsContent {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     border: 1px solid #014f86;
-    width: 80vw;
+    width: 70vw;
     border-radius: 10px;
     background: rgba(255, 255, 255, .5);
-    margin: 20px 0 0 40px;
+    margin: 30px 15vw 0 15vw;
     justify-content: center;
 }
 
@@ -22,27 +26,6 @@
     color: #014f86;
 }
 
-.skillsContributions {
-    /* border: 1px solid #014f86; */
-    margin-bottom: 20px;
-    border-radius: 10px;
-    /* background-color: rgba(1, 79, 134, .5); */
-    background-color: rgba(255, 202, 70, .55);
-}
-
 @media screen and (max-width:940px) {
-    .contributionsImage{
-      width: 70vw;
-    }
-
-    .contributionsTag {
-        float: right;
-        width: 50vw;
-        margin-bottom: 10px;
-        font-size: 11px;
-    }
-
-    .skillsContributions {
-        width: 75vw;
-    }
+   
   }

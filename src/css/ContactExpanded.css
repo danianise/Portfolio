@@ -1,13 +1,10 @@
+#contactExpanded {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .contactExpanded {
-    /* display: flex;
-    flex-direction: column;
-    color: #014f86;
-    border: 1px solid #014f86;
-    width: 80vw;
-    border-radius: 10px;
-    background: rgba(255, 255, 255, .5);
-    margin: 20px 0 0 40px;
-    align-items: center; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -16,7 +13,6 @@
     width: 80vw;
     border-radius: 10px;
     background: rgba(255, 255, 255, .5);
-    margin: 20px 0 0 40px;
     justify-content: center;
 }
 
@@ -29,7 +25,6 @@
 }
 
 .contactExpanded > li {
-    /* padding: 5px; */
     margin: 25px;
     color: #014f86;
     text-align: center;

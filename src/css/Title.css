@@ -1,6 +1,5 @@
 .title {
-   left: 0;
-   /* margin-bottom: 70vh; */
+   margin-left: 15vh;
 }
 
 .title h1 {
@@ -15,8 +14,4 @@
     .title h1 {
         font-size: 30px;
     }
-    
-    /* .title {
-        text-align: center;
-    } */
 }

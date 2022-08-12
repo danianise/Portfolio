@@ -1,5 +1,4 @@
 .gitContributions {
-  /* margin: 10px; */
   margin-top: -20px;
 }
 .gitContainer {
@@ -8,7 +7,6 @@
 }
 
 .gitContributions h6 {
-  /* display: block; */
     margin-top: 0;
     margin-left: 20px;
     color: #014f86;

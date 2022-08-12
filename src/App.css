@@ -1,6 +1,4 @@
 .App {
-  display: flex;
-  position: relative;
   color: white;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -10,7 +8,7 @@
   height: 100vh;
   content: "";
   background-image: url('../public/daisies.jpg');
-  /* background-position: center; */
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -32,27 +30,13 @@ li {
 }
 
 .mainContent {
-  margin: 90px 0 0 90px;
-  display: flex;
-  flex-direction: column;
+  margin-top: 90px;
 }
 
 @media screen and (max-width:940px) {
  
   .App::before {
-    /* background-image: url('../public/smallDaisies.jpeg'); */
-    /* opacity: 0.55; */
     background-size: 100% 80% stretch;
     background-position: top;
-  }
-
-  .mainContent {
-    display: flex;
-    /* margin: 90px 0 0 55px; */
-    
-    /* justify-content: center; */
-    /* align-self: center; */
-    /* align-items: center; */
-    width: 70vw;
   }
 }
