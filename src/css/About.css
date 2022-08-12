@@ -27,9 +27,14 @@
 }
 
 @media screen and (max-width:940px){
+    .about {
+        flex-direction: column;
+    }
+
     .about > img {
         width: 150px;
         height: 150px;
+        align-self: center;
     }
 }
 
