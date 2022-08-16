@@ -40,6 +40,9 @@
 .header .nav-item a:hover {
     border-bottom: 2px solid #014f86;
 }
+.header .nav-item:last-child a:hover {
+    border-bottom: none;
+}
 
 .resumeButton {
     background: none;
@@ -53,8 +56,9 @@
 
 .resumeButton:hover {
     color: #014f86;
-    border: 1px solid #014f86;
+    /* border: 2px solid #014f86;  */
     cursor: pointer;
+    font-weight: bold;
 }
 
 .hamburger {

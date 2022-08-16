@@ -35,10 +35,12 @@ function Projects() {
                 At the end of the game, a new screen will appear to show the user their final score
                 and give them a rating based on how well they did.
             </p>
-            <div className='HPImages images'>
-                <img src='HPTriviaPlay.png' alt='Harry Potter Trivia game play screenshot'/>
-                <img src='HPTriviaEnd.png' alt='Harry Potter Trivia end of game screenshot'/>
-            </div>
+            <a href='https://danianise.github.io/triviagame/' target='_blank'>
+                <div className='HPImages images'>
+                    <img src='HPTriviaPlay.png' alt='Harry Potter Trivia game play screenshot'/>
+                    <img src='HPTriviaEnd.png' alt='Harry Potter Trivia end of game screenshot'/>
+                </div>
+            </a>
             <a href='https://github.com/danianise/triviagame' target='_blank'>
                 <img className='octocat' src='Octocat.png' alt='GitHub Octocat'/>
             </a>
@@ -57,13 +59,15 @@ function Projects() {
                 'What's For Dinner?' is a collection of dinner recipes that can be filtered by different
                 criteria, such as ingredients or (lack of) allergens.
             </p>
-            <div className='recipeImages images'>
-                <img src='recipeIndex.png' alt='Index page of Whats For Dinner'/>
-                <img src='recipeEdit.gif' alt='gif of editing a recipe'/>
-                <br />
-                <img src='recipeSearch.gif' alt='gif of searching by ingredients'/>
-                <img src='allergenSearch.gif' alt='gif of filtering out allergens' />
-            </div>
+            <a href='http://danianise-whats-for-dinner.herokuapp.com/recipes' target='_blank'>
+                <div className='recipeImages images'>
+                    <img src='recipeIndex.png' alt='Index page of Whats For Dinner'/>
+                    <img src='recipeEdit.gif' alt='gif of editing a recipe'/>
+                    <br />
+                    <img src='recipeSearch.gif' alt='gif of searching by ingredients'/>
+                    <img src='allergenSearch.gif' alt='gif of filtering out allergens' />
+                </div>
+            </a>
             <a href='https://github.com/danianise/WhatsForDinner' target='_blank'>
                 <img className='octocat' src='Octocat.png' alt='GitHub Octocat'/>
             </a>
@@ -85,10 +89,12 @@ function Projects() {
             see their portfolio information, update their portfolio upon change to holdings
             (buy/sell in part), and delete stocks upon sale.
             </p>
-            <div className='mockStockImages images'>
-                <img src='searchStock.gif' alt='search by stock symbol'/>
-                <img src='watchlist.gif' alt='gif of editing a recipe'/>
-            </div>
+            <a href='https://peaceful-tundra-02209.herokuapp.com/portfolio' target='_blank'>
+                <div className='mockStockImages images'>
+                    <img src='searchStock.gif' alt='search by stock symbol'/>
+                    <img src='watchlist.gif' alt='gif of editing a recipe'/>
+                </div>
+            </a>
             <div className='multiCat'>
                 <a href='https://github.com/danianise/MockStockFrontend' target='_blank'>
                     <img className='octocat' src='Octocat.png' alt='GitHub Octocat'/>
@@ -114,13 +120,15 @@ function Projects() {
             events. Users can register and login to view protected routes, and can also update or delete
             their own posts or comments, and update their profile information as needed.
             </p>
-            <div className='alumniNetworkImages images'>
-                <img src='ANLandingPage.png' alt='Alumni Network landing page'/>
-                <img src='ANProfilePage.png' alt='Alumni Network profile page'/>
-                <br />
-                <img src='ANConversationPage.png' alt='Alumni Network landing page'/>
-                <img src='ANEventPage.png' alt='Alumni Network profile page'/>
-            </div>
+            <a href='https://thealumninetwork.netlify.app/' target='_blank'>
+                <div className='alumniNetworkImages images'>
+                    <img src='ANLandingPage.png' alt='Alumni Network landing page'/>
+                    <img src='ANProfilePage.png' alt='Alumni Network profile page'/>
+                    <br />
+                    <img src='ANConversationPage.png' alt='Alumni Network landing page'/>
+                    <img src='ANEventPage.png' alt='Alumni Network profile page'/>
+                </div>
+            </a>
             <div className='multiCat'>
                 <a href='https://github.com/danianise/AlumniNetworkFrontend' target='_blank'>
                     <img className='octocat' src='Octocat.png' alt='GitHub Octocat'/>

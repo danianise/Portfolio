@@ -69,7 +69,7 @@ function NavBar() {
                 </li>
 
                 <li className='nav-item'>
-                    <a href='resume.pdf' onClick={closeMenu} target='_blank'>
+                    <a href='DanielleHoey_resume.pdf' onClick={closeMenu} target='_blank'>
                         <button className='resumeButton'>
                             resume
                         </button>
