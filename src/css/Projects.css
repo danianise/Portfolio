@@ -33,7 +33,7 @@
     text-align: center;
 }
 
-.HPImages > img, .mockStockImages > img, .recipeImages > img , .alumniNetworkImages > img{
+.HPImages > img, .mockStockImages > img, .recipeImages > img , .alumniNetworkImages > img, .oscarsBirthdayImages > img{
     border-radius: 10px;
     width: 25vw;
     height: 25vh;

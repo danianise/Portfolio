@@ -139,6 +139,32 @@ function Projects() {
                 </a>
             </div>
 
+            <h1>
+                <a href='https://oscarsbirthday.netlify.app/' target='_blank'>
+                    Oscar's Third Birthday Invitation
+                </a>
+            </h1>
+            <h5>
+                JavaScript | React.js | Node.js | Django | PostgreSQL 
+            </h5>
+            <p className='description'>
+            A single page React App to invite friends and family to Oscar's Spooky 3rd Birthday Party. 
+            RSVP functionality via React forms and a Django/PostgreSQL backend.
+            </p>
+            <a href='https://oscarsbirthday.netlify.app/' target='_blank'>
+                <div className='oscarsBirthdayImages images'>
+                    <img src='birthdayAccept.gif' alt='Accept invitation gif'/>
+                    <img src='birthdayDecline.gif' alt='Decline invitation gif'/>
+                </div>
+            </a>
+            <div className='multiCat'>
+                <a href='https://github.com/danianise/BirthdayPartyFrontend' target='_blank'>
+                    <img className='octocat' src='Octocat.png' alt='GitHub Octocat'/>
+                </a>
+                <a href='https://github.com/danianise/BirthdayPartyBackend' target='_blank'>
+                    <img className='octocat secondOctocat' src='Octocat.png' alt='GitHub Octocat'/>
+                </a>
+            </div>
 
         </div>
 

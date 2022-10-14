@@ -18,7 +18,7 @@ function About() {
           {/* <h4>About Me</h4> */}
           <p>
               I am a full-stack software engineer with a particular interest in front-end development. 
-              I enjoy creating an interface that is not only funtional and user friendly, but also appealing to the eye.
+              I enjoy creating an interface that is not only functional and user friendly, but also appealing to the eye.
           </p>
           <p>
               I have a Bachelor of Business Administration from the Isenberg School of Management at the
