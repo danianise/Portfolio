@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react'
 import '../css/Skills.css'
 import {FaHtml5, FaCss3Alt, FaPython, FaReact, FaNodeJs, FaGithub} from 'react-icons/fa'
-import {SiJavascript, SiMongodb, SiPostgresql, SiExpress, SiDjango, SiJson, SiHeroku, SiNetlify, SiPostman} from 'react-icons/si'
+import {SiJavascript, SiMongodb, SiPostgresql, SiExpress, SiDjango, SiJson, SiHeroku, SiNetlify, SiPostman, SiGoogleanalytics} from 'react-icons/si'
 import {motion} from 'framer-motion'
 import ReactGA from 'react-ga';
 
@@ -75,6 +75,9 @@ function Skills() {
 
           <li>
             <SiNetlify className='skillsIcon'/><br />Netlify
+          </li>
+          <li>
+            <SiGoogleanalytics className='skillsIcon' /> <br />Google Analytics
           </li>
         </div>
     </motion.div>
