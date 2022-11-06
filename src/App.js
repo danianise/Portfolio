@@ -14,7 +14,8 @@ import {AnimatePresence} from 'framer-motion'
 function App() {
 
   const location = useLocation()
-  const trackingID = "G-F1QNDT07NH"
+  // const trackingID = "G-F1QNDT07NH"
+  const trackingID = 'UA-247485069-1'
   ReactGA.initialize(trackingID)
 
   return (
