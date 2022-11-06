@@ -7,13 +7,15 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import ContactExpanded from './components/ContactExpanded'
-import GitContributions from './components/GitContributions';
+import ReactGA from 'react-ga';
 
 import {AnimatePresence} from 'framer-motion'
 
 function App() {
 
   const location = useLocation()
+  const trackingID = "G-F1QNDT07NH"
+  ReactGA.initialize(trackingID)
 
   return (
     <div className="App">

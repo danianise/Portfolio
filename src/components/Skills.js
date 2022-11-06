@@ -1,11 +1,16 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import '../css/Skills.css'
-import GitContributions from './GitContributions'
 import {FaHtml5, FaCss3Alt, FaPython, FaReact, FaNodeJs, FaGithub} from 'react-icons/fa'
 import {SiJavascript, SiMongodb, SiPostgresql, SiExpress, SiDjango, SiJson, SiHeroku, SiNetlify, SiPostman} from 'react-icons/si'
 import {motion} from 'framer-motion'
+import ReactGA from 'react-ga';
 
 function Skills() {
+
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname)
+  }, [])
+
 
   return (<>
     {/* <div className='skills'> */}

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import '../css/ContactExpanded.css'
 import {SiBuymeacoffee} from 'react-icons/si'
 import {AiOutlineMail, AiFillLinkedin} from 'react-icons/ai'
@@ -6,9 +6,15 @@ import {FiPhone} from 'react-icons/fi'
 import {GoLocation} from 'react-icons/go'
 import {BsGithub} from 'react-icons/bs'
 import {motion} from 'framer-motion'
+import ReactGA from 'react-ga'
 
 
 function ContactExpanded() {
+
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname)
+  }, [])
+
   return (
       
       // <div id='contact'>
