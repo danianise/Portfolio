@@ -1,7 +1,8 @@
 import React, {useEffect} from 'react'
 import '../css/Skills.css'
 import {FaHtml5, FaCss3Alt, FaPython, FaReact, FaNodeJs, FaGithub} from 'react-icons/fa'
-import {SiJavascript, SiMongodb, SiPostgresql, SiExpress, SiDjango, SiJson, SiHeroku, SiNetlify, SiPostman, SiGoogleanalytics, SiRailway} from 'react-icons/si'
+import {SiJavascript, SiMongodb, SiPostgresql, SiExpress, SiDjango, SiJson, SiHeroku, 
+  SiNetlify, SiPostman, SiGoogleanalytics, SiRailway, SiSwift} from 'react-icons/si'
 import {motion} from 'framer-motion'
 import ReactGA from 'react-ga';
 
@@ -35,6 +36,10 @@ function Skills() {
 
           <li>
             <FaPython className='skillsIcon'/><br />Python
+          </li>
+
+          <li>
+            <SiSwift className='skillsIcon'/><br />Swift
           </li>
 
           <li>
