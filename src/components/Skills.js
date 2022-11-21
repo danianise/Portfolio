@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react'
 import '../css/Skills.css'
 import {FaHtml5, FaCss3Alt, FaPython, FaReact, FaNodeJs, FaGithub} from 'react-icons/fa'
-import {SiJavascript, SiMongodb, SiPostgresql, SiExpress, SiDjango, SiJson, SiHeroku, SiNetlify, SiPostman, SiGoogleanalytics} from 'react-icons/si'
+import {SiJavascript, SiMongodb, SiPostgresql, SiExpress, SiDjango, SiJson, SiHeroku, SiNetlify, SiPostman, SiGoogleanalytics, SiRailway} from 'react-icons/si'
 import {motion} from 'framer-motion'
 import ReactGA from 'react-ga';
 
@@ -42,6 +42,10 @@ function Skills() {
           </li>
 
           <li>
+            <SiPostgresql className='skillsIcon'/><br />PostgreSQL
+          </li>
+
+          <li>
             <FaReact className='skillsIcon'/><br />React
           </li>
 
@@ -76,6 +80,11 @@ function Skills() {
           <li>
             <SiNetlify className='skillsIcon'/><br />Netlify
           </li>
+
+          <li>
+            <SiRailway className='skillsIcon'/><br />Railway
+          </li>
+
           <li>
             <SiGoogleanalytics className='skillsIcon' /> <br />Google Analytics
           </li>
