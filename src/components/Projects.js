@@ -57,7 +57,7 @@ function Projects() {
             <hr className='divider'/>
 
             <h1>
-                <a href='https://peaceful-tundra-02209.herokuapp.com/portfolio' target='_blank'>
+                <a href='https://danianisemockstock.netlify.app/portfolio' target='_blank'>
                     MockStock
                 </a>
             </h1>
@@ -73,7 +73,7 @@ function Projects() {
             see their portfolio information, update their portfolio upon change to holdings
             (buy/sell in part), and delete stocks upon sale. */}
             </p>
-            <a href='https://peaceful-tundra-02209.herokuapp.com/portfolio' target='_blank'>
+            <a href='https://danianisemockstock.netlify.app/portfolio' target='_blank'>
                 <div className='mockStockImages images'>
                     <img src='searchStock.gif' alt='search by stock symbol'/>
                     <img src='watchlist.gif' alt='gif of editing a recipe'/>
@@ -90,7 +90,7 @@ function Projects() {
             <hr className='divider'/>
             
             <h1>
-                <a href='http://danianise-whats-for-dinner.herokuapp.com/recipes' target='_blank'>
+                <a href='https://whatsfordinner-production.up.railway.app/recipes' target='_blank'>
                     What's For Dinner?
                 </a>
             </h1>
@@ -102,7 +102,7 @@ function Projects() {
                 'What's For Dinner?' is a collection of dinner recipes that can be filtered by different
                 criteria, such as ingredients or (lack of) allergens.
             </p>
-            <a href='http://danianise-whats-for-dinner.herokuapp.com/recipes' target='_blank'>
+            <a href='https://whatsfordinner-production.up.railway.app/recipes' target='_blank'>
                 <div className='recipeImages images'>
                     <img src='recipeIndex.png' alt='Index page of Whats For Dinner'/>
                     <img src='recipeEdit.gif' alt='gif of editing a recipe'/>
