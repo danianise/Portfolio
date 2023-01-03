@@ -4,7 +4,7 @@ import {SiBuymeacoffee} from 'react-icons/si'
 import {AiOutlineMail, AiFillLinkedin} from 'react-icons/ai'
 import {FiPhone} from 'react-icons/fi'
 import {GoLocation} from 'react-icons/go'
-import {BsGithub} from 'react-icons/bs'
+import {BsGithub, BsCalendarWeek} from 'react-icons/bs'
 import {motion} from 'framer-motion'
 import ReactGA from 'react-ga'
 
@@ -37,6 +37,10 @@ function ContactExpanded() {
         <div className='contactExpanded'>
 
           <li>
+                <GoLocation className='contactExpandedIcon'/><br />Lunenburg, MA
+          </li>
+
+          <li>
               <FiPhone className='contactExpandedIcon'/><br />(413)822-2738
           </li>
 
@@ -47,7 +51,10 @@ function ContactExpanded() {
           </li>
 
           <li>
-              <GoLocation className='contactExpandedIcon'/><br />Lunenburg, MA
+            
+            <a href='https://calendly.com/danielleahoey/30min' target='_blank'>
+              <BsCalendarWeek className='contactExpandedIcon' /><br />Calendly
+            </a>
           </li>
 
           <li>
