@@ -52,7 +52,7 @@ function ContactExpanded() {
 
           <li>
             
-            <a href='https://calendly.com/danielleahoey/30min' target='_blank'>
+            <a href='https://calendly.com/danielleahoey/' target='_blank'>
               <BsCalendarWeek className='contactExpandedIcon' /><br />Calendly
             </a>
           </li>
