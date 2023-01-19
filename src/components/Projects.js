@@ -22,6 +22,39 @@ function Projects() {
         <div className='projects'>
 
         <h1>
+                <a href='https://danianisemockstock.netlify.app/portfolio' target='_blank'>
+                    MockStock
+                </a>
+            </h1>
+            <h5>
+                JavaScript | React.js | Express | Node.js | MongoDB/Mongoose | React Bootstrap 
+            </h5>
+            <p className='description'>
+            A collaborative project, MockStock is a mock-up of a stock market app that will represent
+            the user’s stock portfolio. 
+            {/* The user will be able to see stock holdings, portfolio balance,
+            stock-specific information, and be able to search for current stock data.
+            The app has full CRUD capabilities in that the user can add new stocks upon purchase,
+            see their portfolio information, update their portfolio upon change to holdings
+            (buy/sell in part), and delete stocks upon sale. */}
+            </p>
+            <a href='https://danianisemockstock.netlify.app/portfolio' target='_blank'>
+                <div className='mockStockImages images'>
+                    <img src='searchStock.gif' alt='search by stock symbol'/>
+                    <img src='watchlist.gif' alt='gif of editing a recipe'/>
+                </div>
+            </a>
+            <div className='multiCat'>
+                <a href='https://github.com/danianise/MockStockFrontend' target='_blank'>
+                    <img className='octocat' src='Octocat.png' alt='GitHub Octocat'/>
+                </a>
+                <a href='https://github.com/danianise/MockStockBackend' target='_blank'>
+                    <img className='octocat secondOctocat' src='Octocat.png' alt='GitHub Octocat'/>
+                </a>
+            </div>
+            <hr className='divider'/>
+
+            <h1>
                 <a href='https://thealumninetwork.netlify.app/' target='_blank'>
                     [theAlumniNetwork]
                 </a>
@@ -51,39 +84,6 @@ function Projects() {
                     <img className='octocat' src='Octocat.png' alt='GitHub Octocat'/>
                 </a>
                 <a href='https://github.com/danianise/AlumniNetworkBackend' target='_blank'>
-                    <img className='octocat secondOctocat' src='Octocat.png' alt='GitHub Octocat'/>
-                </a>
-            </div>
-            <hr className='divider'/>
-
-            <h1>
-                <a href='https://danianisemockstock.netlify.app/portfolio' target='_blank'>
-                    MockStock
-                </a>
-            </h1>
-            <h5>
-                JavaScript | React.js | Express | Node.js | MongoDB/Mongoose | React Bootstrap 
-            </h5>
-            <p className='description'>
-            A collaborative project, MockStock is a mock-up of a stock market app that will represent
-            the user’s stock portfolio. 
-            {/* The user will be able to see stock holdings, portfolio balance,
-            stock-specific information, and be able to search for current stock data.
-            The app has full CRUD capabilities in that the user can add new stocks upon purchase,
-            see their portfolio information, update their portfolio upon change to holdings
-            (buy/sell in part), and delete stocks upon sale. */}
-            </p>
-            <a href='https://danianisemockstock.netlify.app/portfolio' target='_blank'>
-                <div className='mockStockImages images'>
-                    <img src='searchStock.gif' alt='search by stock symbol'/>
-                    <img src='watchlist.gif' alt='gif of editing a recipe'/>
-                </div>
-            </a>
-            <div className='multiCat'>
-                <a href='https://github.com/danianise/MockStockFrontend' target='_blank'>
-                    <img className='octocat' src='Octocat.png' alt='GitHub Octocat'/>
-                </a>
-                <a href='https://github.com/danianise/MockStockBackend' target='_blank'>
                     <img className='octocat secondOctocat' src='Octocat.png' alt='GitHub Octocat'/>
                 </a>
             </div>
