@@ -1,5 +1,6 @@
 .App {
   color: white;
+  /* background-color: #232b2b; */
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -7,12 +8,15 @@
   z-index: -1;
   height: 100vh;
   content: "";
-  background-image: url('../public/daisies.jpg');
-  background-position: center;
+  /* background-image: url('../public/daisies.jpg'); */
+  background-color: #232b2b;
+  background-image: url('../public/dahoey.png');
+  background-position: left bottom;
   background-repeat: no-repeat;
-  background-size: cover;
+  /* background-size: cover; */
   background-attachment: fixed;
-  position: fixed;
+  /* position: fixed; */
+  position: absolute;
   top: 0px;
   right: 0px;
   bottom: 0px;
@@ -33,10 +37,10 @@ li {
   margin-top: 90px;
 }
 
-@media screen and (max-width:940px) {
+/* @media screen and (max-width:940px) {
  
   .App::before {
     background-size: 100% 80% stretch;
     background-position: top;
   }
-}
+} */

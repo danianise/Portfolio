@@ -1,5 +1,5 @@
 .contact {
-    left: 1%;
+    right: 1%;
     bottom: 0;
     padding-top: 55%;
     position: fixed;
@@ -7,7 +7,7 @@
 }
 
 .vertLine {
-    border-left: 2px solid #014f86;
+    border-left: 2px solid #c9c9cc;
     margin: 5px 0 0 10px;
     height: 200px;
 

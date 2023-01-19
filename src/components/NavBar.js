@@ -19,11 +19,11 @@ function NavBar() {
         <nav className='navbar'>
 
             {/* <a href='/'> */}
-                <img
+                {/* <img
                     alt='Danielle Hoey' 
                     src='whitelogo.png'
                     className='avatar'
-                />
+                /> */}
             {/* </a> */}
             
             <ul className={click ? "nav-menu active" : "nav-menu"}>

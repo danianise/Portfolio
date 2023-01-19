@@ -8,7 +8,7 @@ function GitContributions() {
             <img 
                 className='contributionsImage'
                 // src="https://ghchart.rshah.org/d4af37/danianise"
-                src="https://ghchart.rshah.org/014f86/danianise"
+                src="https://ghchart.rshah.org/4c4cc9/danianise"
                 alt="danianise's GitHub Contributions"
             />
             <h6 className='contributionsTag'>

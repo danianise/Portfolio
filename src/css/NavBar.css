@@ -7,7 +7,6 @@
     z-index: 1;
     transition: .3s ease-in;
     overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.4);
 }
 
 .avatar {
@@ -34,11 +33,12 @@
 .header .nav-item {
     padding: 1rem;
     font-weight: 500;
-    color:#014f86;
+    /* color:#014f86; */
+    color: #c9c9cc;
 }
 
 .header .nav-item a:hover {
-    border-bottom: 2px solid #014f86;
+    border-bottom: 2px solid #c9c9cc;
 }
 .header .nav-item:last-child a:hover {
     border-bottom: none;
@@ -46,8 +46,8 @@
 
 .resumeButton {
     background: none;
-    border: 1px solid #014f86;
-    color: #014f86;
+    border: 1px solid #c9c9cc;
+    color: #c9c9cc;
     border-radius: 5px;
     font-size: 16px;
     padding: 5px;
@@ -55,7 +55,7 @@
 }
 
 .resumeButton:hover {
-    color: #014f86;
+    color: #c9c9cc;
     /* border: 2px solid #014f86;  */
     cursor: pointer;
     font-weight: bold;

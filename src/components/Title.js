@@ -29,9 +29,9 @@ function Title() {
             <br />
             <span>Software Engineer</span>
         </h1>
-        <div className='contributions'>
+        {/* <div className='contributions'>
           <GitContributions />
-        </div>
+        </div> */}
 
     </motion.div>
     // </div>
