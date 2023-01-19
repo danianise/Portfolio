@@ -21,7 +21,7 @@ function Projects() {
 
         <div className='projects'>
 
-        <h1>
+            <h1>
                 <a href='https://danianisemockstock.netlify.app/portfolio' target='_blank'>
                     MockStock
                 </a>
