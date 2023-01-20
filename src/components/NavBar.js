@@ -78,7 +78,7 @@ function NavBar() {
 
             </ul>
             <div className='hamburger' onClick={handleClick}>
-                    {click ? <CloseIcon sx={{color: '#014f86'}}/> : <MenuIcon sx={{color: '#014f86'}}/>} 
+                    {click ? <CloseIcon /> : <MenuIcon />} 
             </div>
         </nav>
     </div>

@@ -1,24 +1,33 @@
 
 .gitContainer {
-  display: flex;
-  flex-direction: column;
-  /* position: absolute;
-  bottom: 0;
-  right: 0; */
+  color: white;
+  opacity: 0.8;
 }
 
 .gitContributions h6 {
     margin-top: 0;
     margin-left: 20px;
-    color: #c9c9cc;
-    opacity: 0.5;
+    color: white;
   }
   
-  .contributionsImage {
-    width: 80vw;
-  }
+  /* .contributionsImage {
+    width: 50vw;
+  } */
 
   .contributionsTag {
     color: white;
+    width: fit-content;
     margin-bottom: 0;
   }
+
+  @media screen and (max-width:940px) {
+    .contributionsImage {
+      width: 80vw;
+    }
+}
+
+@media screen and (max-width:600px) {
+  .gitContainer {
+      display: none;
+  }
+}

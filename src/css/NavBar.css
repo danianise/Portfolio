@@ -1,20 +1,21 @@
 .header {
     position: fixed;
     height: 90px;
-    width: 100vw;
+    /* width: 100vw; */
     top: 0;
-    left: 0;
+    right: 0;
+    /* left: 0; */
     z-index: 1;
     transition: .3s ease-in;
     overflow: hidden;
 }
 
-.avatar {
+/* .avatar {
     margin-top: 5px;
     width: 75px;
     height: 75px;
     border-radius: 50%;
-}
+} */
 
 .header .navbar {
     display: flex;
@@ -34,11 +35,12 @@
     padding: 1rem;
     font-weight: 500;
     /* color:#014f86; */
-    color: #c9c9cc;
+    color: white;
+    opacity: 0.8;
 }
 
 .header .nav-item a:hover {
-    border-bottom: 2px solid #c9c9cc;
+    border-bottom: 2px solid white;
 }
 .header .nav-item:last-child a:hover {
     border-bottom: none;
@@ -47,7 +49,8 @@
 .resumeButton {
     background: none;
     border: 1px solid #c9c9cc;
-    color: #c9c9cc;
+    color: white;
+    opacity: 0.9;
     border-radius: 5px;
     font-size: 16px;
     padding: 5px;
@@ -55,7 +58,7 @@
 }
 
 .resumeButton:hover {
-    color: #c9c9cc;
+    color: white;
     /* border: 2px solid #014f86;  */
     cursor: pointer;
     font-weight: bold;
@@ -86,7 +89,9 @@
         right: -100%;
         top: 5rem;
         flex-direction: column;
-        background: rgba(255, 255, 255, 0.85);
+        /* background: rgba(255, 255, 255, 0.85); */
+        /* background: white; */
+        opacity: 0.95;
         border-radius: 5px;
         width: 100px;
         height: 90vh;
@@ -112,8 +117,8 @@
 
     .resumeButton {
         margin: 0 ;
-        color:#014f86;
-        border: 1px solid #014f86;
+        color:white;
+        border: 1px solid white;
     }
 
     .resumeButton:hover{

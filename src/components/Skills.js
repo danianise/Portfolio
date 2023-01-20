@@ -21,6 +21,9 @@ function Skills() {
       animate={{opacity: 1}}
       // exit={{opacity: 0}}
     >
+        <div className='skillsP'>
+          <p>skills</p>
+        </div>
         <div className='skillsContent'>
           <li>
             <FaHtml5 className='skillsIcon'/><br />HTML
@@ -38,9 +41,9 @@ function Skills() {
             <FaPython className='skillsIcon'/><br />Python
           </li>
 
-          <li>
+          {/* <li>
             <SiSwift className='skillsIcon'/><br />Swift
-          </li>
+          </li> */}
 
           <li>
             <SiMongodb className='skillsIcon'/><br />MongoDB/Mongoose
@@ -74,25 +77,25 @@ function Skills() {
             <SiHeroku className='skillsIcon'/><br />Heroku
           </li>
 
-          <li>
+          {/* <li>
             <FaGithub className='skillsIcon'/><br />GitHub
-          </li>
+          </li> */}
 
           <li>
             <SiPostman className='skillsIcon'/><br />Postman
           </li>
 
-          <li>
+          {/* <li>
             <SiNetlify className='skillsIcon'/><br />Netlify
-          </li>
+          </li> */}
 
-          <li>
+          {/* <li>
             <SiRailway className='skillsIcon'/><br />Railway
-          </li>
+          </li> */}
 
-          <li>
+          {/* <li>
             <SiGoogleanalytics className='skillsIcon' /> <br />Google Analytics
-          </li>
+          </li> */}
         </div>
     </motion.div>
     {/* </div> */}

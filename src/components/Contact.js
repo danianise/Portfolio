@@ -10,17 +10,17 @@ function Contact() {
     <div className='contact'>
 
         <a href='mailto: danianisehoey@gmail.com?subject=I saw your portfolio!'>
-            <MailOutlineIcon id='mail' className='icon' sx={{fill: '#c9c9cc'}}/>
+            <MailOutlineIcon id='mail' className='icon' sx={{fill: 'white', opacity: '0.8'}}/>
         </a>
         <br />
 
         <a href='https://www.linkedin.com/in/danielleahoey/' target='_blank'>
-            <LinkedInIcon id='linkedin' className='icon' sx={{fill: '#c9c9cc'}}/>
+            <LinkedInIcon id='linkedin' className='icon' sx={{fill: 'white', opacity: '0.8'}}/>
         </a>
         <br />
 
         <a href='https://github.com/danianise' target='_blank'>
-            <GitHubIcon id='github' className='icon' sx={{fill: '#c9c9cc'}}/>
+            <GitHubIcon id='github' className='icon' sx={{fill: 'white', opacity: '0.8'}}/>
         </a>
         <div className='vertLine'>
     

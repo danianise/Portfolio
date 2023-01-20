@@ -1,9 +1,11 @@
 .title {
-   margin-left: 10vh;
+   margin-left: 10px;
 }
 
 .title h1 {
-    font-size: 60px;
+    font-size: 10vh;
+    width: fit-content;
+    margin: 0;
 }
 
 .name{
