@@ -22,6 +22,33 @@ function Projects() {
         <div className='projects'>
 
             <h1>
+                <a href='https://whatsfordinner-production.up.railway.app/recipes' target='_blank'>
+                    What's For Dinner?
+                </a>
+            </h1>
+            <h5>
+                HTML | EJS | CSS | JavaScript | Express | Node.js | MongoDB/Mongoose
+            </h5>
+            <p className='description'>
+                This project helps to alleviate the tedium of deciding what to make for dinner every day.
+                'What's For Dinner?' is a collection of dinner recipes that can be filtered by different
+                criteria, such as ingredients or (lack of) allergens.
+            </p>
+            <a href='https://whatsfordinner-production.up.railway.app/recipes' target='_blank'>
+                <div className='recipeImages images'>
+                    <img src='recipeIndex.png' alt='Index page of Whats For Dinner'/>
+                    <img src='recipeEdit.gif' alt='gif of editing a recipe'/>
+                    <br />
+                    <img src='recipeSearch.gif' alt='gif of searching by ingredients'/>
+                    <img src='allergenSearch.gif' alt='gif of filtering out allergens' />
+                </div>
+            </a>
+            <a href='https://github.com/danianise/WhatsForDinner' target='_blank'>
+                <img className='octocat' src='Octocat.png' alt='GitHub Octocat'/>
+            </a>
+            <hr className='divider'/>
+
+            <h1>
                 <a href='https://danianisemockstock.netlify.app/portfolio' target='_blank'>
                     MockStock
                 </a>
@@ -87,33 +114,6 @@ function Projects() {
                     <img className='octocat secondOctocat' src='Octocat.png' alt='GitHub Octocat'/>
                 </a>
             </div>
-            <hr className='divider'/>
-            
-            <h1>
-                <a href='https://whatsfordinner-production.up.railway.app/recipes' target='_blank'>
-                    What's For Dinner?
-                </a>
-            </h1>
-            <h5>
-                HTML | EJS | CSS | JavaScript | Express | Node.js | MongoDB/Mongoose
-            </h5>
-            <p className='description'>
-                This project helps to alleviate the tedium of deciding what to make for dinner every day.
-                'What's For Dinner?' is a collection of dinner recipes that can be filtered by different
-                criteria, such as ingredients or (lack of) allergens.
-            </p>
-            <a href='https://whatsfordinner-production.up.railway.app/recipes' target='_blank'>
-                <div className='recipeImages images'>
-                    <img src='recipeIndex.png' alt='Index page of Whats For Dinner'/>
-                    <img src='recipeEdit.gif' alt='gif of editing a recipe'/>
-                    <br />
-                    <img src='recipeSearch.gif' alt='gif of searching by ingredients'/>
-                    <img src='allergenSearch.gif' alt='gif of filtering out allergens' />
-                </div>
-            </a>
-            <a href='https://github.com/danianise/WhatsForDinner' target='_blank'>
-                <img className='octocat' src='Octocat.png' alt='GitHub Octocat'/>
-            </a>
             <hr className='divider'/>
 
             <h1>
