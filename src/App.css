@@ -1,6 +1,6 @@
 .App {
   color: white;
-  /* background-color: #232b2b; */
+  /* background-color: black; */
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -10,7 +10,7 @@
   content: "";
   /* background-image: url('../public/daisies.jpg'); */
   background-color: rgb(18, 18, 18);
-  background-image: url('../public/dahoey.png');
+  /* background-image: url('../public/dahoey.png'); */
   background-position: left bottom;
   background-repeat: no-repeat;
   /* background-size: cover; */

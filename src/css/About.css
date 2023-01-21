@@ -4,15 +4,35 @@
     width: 80vw;
     margin-left: 10vh;
 }
+.about::before {
+    z-index: -1;
+    height: 100vh;
+    content: "";
+    /* background-image: url('../public/daisies.jpg'); */
+    background-color: rgb(18, 18, 18);
+    background-image: url('./images/dahoey.png');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-attachment: fixed;
+    /* position: fixed; */
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    /* opacity: 0.7 */
+  }
 
 .aboutContent {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid #014f86;
-    background: rgba(255, 255, 255, .5);
-    color: #014f86;
+    /* border: 1px solid #4646c7; */
+    /* background: rgba(255, 255, 255, .5);
+    color: black; */
+    color: white;
     border-radius: 10px;
     height: fit-content;
     margin: 20px 0 0 40px;
@@ -30,7 +50,9 @@
     .about {
         flex-direction: column;
         justify-content: center;
-        margin: 0 15vw 0 15vw;
+        margin: 0 16vw 0 16vw;
+        width: 70vw;
+        font-size: small;
     }
 
     .aboutContent {
@@ -43,5 +65,9 @@
         align-self: center;
         margin: 10px 0 0 0;
     }
+
+    .about::before {
+        background-size: 180px;
+      }
 }
 

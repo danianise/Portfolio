@@ -18,7 +18,7 @@ function About() {
       animate={{opacity: 1}}
       // exit={{opacity: 0}}
     >
-        <img className='dHoeyImg' src='dHoey.jpg'/>
+        {/* <img className='dHoeyImg' src='dHoey.jpg'/> */}
 
         <div className='aboutContent'>
           {/* <h4>About Me</h4> */}
@@ -27,14 +27,12 @@ function About() {
               service experience drives me to improve the well-being of others with an empathetic approach to empowerment. 
               As a career-changer I am commited to continuously learning new technologies. I am currently seeking
               the next opportunity to grow my skillset with hands-on experience.
-          </p>
-          <p>
+          <br/><br/>
               I have a Bachelor of Business Administration from the Isenberg School of Management at the
               University of Massachusetts, Amherst, 15 years experience in retail customer service,
               and I have recently completed the Software Engineering Immersive course with General Assembly.
               Currently I'm working freelance as a Web Developer, building e-commerce websites for small businesses.
-          </p>
-          <p>
+          <br/><br/>
               I'm a tattoo enthusiast. I'm a nerd for fantasy and sci-fi.
               I collect hard-cover books. My favorite author is Margaret Atwood.
               I have a weird knack for finding four-leaf clovers and inside the larger books
