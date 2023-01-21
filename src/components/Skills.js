@@ -24,78 +24,64 @@ function Skills() {
         <div className='skillsP'>
           <p>skills</p>
         </div>
+
         <div className='skillsContent'>
-          <li>
-            <FaHtml5 className='skillsIcon'/><br />HTML
-          </li>
           
-          <li>
-            <FaCss3Alt className='skillsIcon'/><br />CSS
-          </li>
+          <div className='firstFour'>
+            <div className='skillUnit'>
+              <FaHtml5 className='skillsIcon'/><br />HTML
+            </div>
+            
+            
+            <div className='skillUnit'>
+              <FaCss3Alt className='skillsIcon'/><br />CSS
+            </div>
 
-          <li>
-            <SiJavascript className='skillsIcon'/><br />JavaScript
-          </li>
+            <div className='skillUnit'>
+              <SiJavascript className='skillsIcon'/><br />JavaScript
+            </div>
 
-          <li>
-            <FaPython className='skillsIcon'/><br />Python
-          </li>
+            <div className='skillUnit'>
+              <FaPython className='skillsIcon'/><br />Python
+            </div>
+          </div>
 
-          {/* <li>
-            <SiSwift className='skillsIcon'/><br />Swift
-          </li> */}
+          <div className='secondFour'>
+            <div className='skillUnit'>
+              <SiMongodb className='skillsIcon'/><br />MongoDB/Mongoose
+            </div>
 
-          <li>
-            <SiMongodb className='skillsIcon'/><br />MongoDB/Mongoose
-          </li>
+            <div className='skillUnit'>
+              <SiPostgresql className='skillsIcon'/><br />PostgreSQL
+            </div>
 
-          <li>
-            <SiPostgresql className='skillsIcon'/><br />PostgreSQL
-          </li>
+            <div className='skillUnit'>
+              <FaReact className='skillsIcon'/><br />React
+            </div>
 
-          <li>
-            <FaReact className='skillsIcon'/><br />React
-          </li>
+            <div className='skillUnit'>
+              <FaNodeJs className='skillsIcon'/><br />Node.js
+            </div>
+          </div>
 
-          <li>
-            <FaNodeJs className='skillsIcon'/><br />Node.js
-          </li>
+          <div className='thirdFour'>
+            <div className='skillUnit'>
+              <SiExpress className='skillsIcon'/><br />Express
+            </div>
 
-          <li>
-            <SiExpress className='skillsIcon'/><br />Express
-          </li>
+            <div className='skillUnit'>
+              <SiDjango className='skillsIcon'/><br />Django
+            </div>
 
-          <li>
-            <SiDjango className='skillsIcon'/><br />Django
-          </li>
+            <div className='skillUnit'>
+              <SiJson className='skillsIcon'/><br />JSON
+            </div>
 
-          <li>
-            <SiJson className='skillsIcon'/><br />JSON
-          </li>
+            <div className='skillUnit'>
+              <SiPostman className='skillsIcon'/><br />Postman
+            </div>
+          </div>
 
-          <li>
-            <SiHeroku className='skillsIcon'/><br />Heroku
-          </li>
-
-          {/* <li>
-            <FaGithub className='skillsIcon'/><br />GitHub
-          </li> */}
-
-          <li>
-            <SiPostman className='skillsIcon'/><br />Postman
-          </li>
-
-          {/* <li>
-            <SiNetlify className='skillsIcon'/><br />Netlify
-          </li> */}
-
-          {/* <li>
-            <SiRailway className='skillsIcon'/><br />Railway
-          </li> */}
-
-          {/* <li>
-            <SiGoogleanalytics className='skillsIcon' /> <br />Google Analytics
-          </li> */}
         </div>
     </motion.div>
     {/* </div> */}

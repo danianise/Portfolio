@@ -84,7 +84,7 @@
     }
 
     .nav-menu {
-        color:#014f86;
+        /* color:#014f86; */
         position: fixed;
         right: -100%;
         top: 5rem;
@@ -129,5 +129,30 @@
     .avatar {
         width: 50px;
         height: 50px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .nav-menu {
+        background: rgba(255, 255, 255, 0.85);
+        /* background: white; */
+    }
+    .header .nav-item {
+        color: black;
+    }
+
+    .header .nav-item a:hover {
+        border-bottom: 2px solid black;
+    }
+
+    .resumeButton {
+        margin: 0 ;
+        color: black;
+        border: 1px solid black;
+    }
+
+    .resumeButton:hover {
+        color: black;
+        border: 2px solid black;
     }
 }

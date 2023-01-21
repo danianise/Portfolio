@@ -1,42 +1,35 @@
-#contactExpanded {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .contactExpanded {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    color: #014f86;
-    border: 1px solid #014f86;
-    width: 80vw;
-    border-radius: 10px;
-    background: rgba(255, 255, 255, .5);
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    background-color: rgb(18, 18, 18);
 }
 
-.contactExpanded > a{
-    transition: transform ease 300ms;
+.contactExpandedContent {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    opacity: 0.8;
 }
 
-.contactExpanded > a:hover{
-    transform: translate(0, -5px);
-}
-
-.contactExpanded > li {
-    margin: 25px;
-    color: #014f86;
+.contactUnit {
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    margin: 30px;
 }
 
 .contactExpandedIcon {
     height: 50px;
     width: auto;
-    color: #014f86;
+    color: #4646c7;
 }
 
-.contactExpandedHead {
-    text-align: center;
-    color: #014f86;
+.contactExpanded a{
+    transition: transform ease 300ms;
+}
+
+.contactExpanded a:hover{
+    transform: translate(0, -5px);
 }

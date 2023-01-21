@@ -24,7 +24,8 @@ function ContactExpanded() {
         animate={{opacity: 1}}
         // exit={{opacity: 0}}
       >
-        <div className='contactExpandedContent'>
+        <div className='contactExpanded'>
+
           <div className='contactExpandedHead'>
             <h1>
               Contact Me
@@ -34,46 +35,45 @@ function ContactExpanded() {
             </h5>
           </div>
 
-        <div className='contactExpanded'>
+        <div className='contactExpandedContent'>
 
-          <li>
-                <GoLocation className='contactExpandedIcon'/><br />Lunenburg, MA
-          </li>
+          <div className='firstThree'>
+            <div className='contactUnit'>
+                <FiPhone className='contactExpandedIcon'/><br />(413)822-2738
+            </div>
 
-          <li>
-              <FiPhone className='contactExpandedIcon'/><br />(413)822-2738
-          </li>
+            <div className='contactUnit'>
+              <a href='mailto: danianisehoey@gmail.com?subject=I saw your portfolio!'>
+                <AiOutlineMail className='contactExpandedIcon'/><br />danianisehoey@gmail.com
+              </a>
+            </div>
 
-          <li>
-            <a href='mailto: danianisehoey@gmail.com?subject=I saw your portfolio!'>
-              <AiOutlineMail className='contactExpandedIcon'/><br />danianisehoey@gmail.com
-            </a>
-          </li>
+            <div className='contactUnit'>
+              <a href='https://calendly.com/danielleahoey/' target='_blank'>
+                <BsCalendarWeek className='contactExpandedIcon' /><br />Calendly
+              </a>
+            </div>
+          </div>
 
-          <li>
-            
-            <a href='https://calendly.com/danielleahoey/' target='_blank'>
-              <BsCalendarWeek className='contactExpandedIcon' /><br />Calendly
-            </a>
-          </li>
+          <div className='secondThree'>
+            <div className='contactUnit'>
+              <a href='https://www.linkedin.com/in/danielleahoey/' target='_blank'>
+                <AiFillLinkedin className='contactExpandedIcon'/><br />LinkedIn
+              </a>
+            </div>
 
-          <li>
-            <a href='https://www.linkedin.com/in/danielleahoey/' target='_blank'>
-              <AiFillLinkedin className='contactExpandedIcon'/><br />LinkedIn
-            </a>
-          </li>
+            <div className='contactUnit'>
+              <a href='https://github.com/danianise' target='_blank'>
+                <BsGithub className='contactExpandedIcon'/><br />GitHub
+              </a>
+            </div>
 
-          <li>
-            <a href='https://github.com/danianise' target='_blank'>
-              <BsGithub className='contactExpandedIcon'/><br />GitHub
-            </a>
-          </li>
-
-          <li>
-            <a href='https://www.buymeacoffee.com/danianise' target='_blank'>
-              <SiBuymeacoffee className='contactExpandedIcon'/><br />Buy me a coffee
-            </a>
-          </li>
+            <div className='contactUnit'>
+              <a href='https://www.buymeacoffee.com/danianise' target='_blank'>
+                <SiBuymeacoffee className='contactExpandedIcon'/><br />Buy me a coffee
+              </a>
+            </div>
+          </div>
 
         </div>
       </div>
