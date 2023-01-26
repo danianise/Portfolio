@@ -1,4 +1,5 @@
 import React, {useEffect} from 'react'
+import {useParams} from 'react-router-dom'
 import '../css/About.css'
 import {motion} from 'framer-motion'
 import ReactGA from 'react-ga';
@@ -8,6 +9,9 @@ function About() {
   useEffect(() => {
     ReactGA.pageview(window.location.pathname)
   }, [])
+
+  const params = useParams()
+  console.log(params)
 
   return (
     // <div className='about' id='about'>

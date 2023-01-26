@@ -1,12 +1,16 @@
 import React, {useState} from 'react'
+import {useParams} from 'react-router-dom'
 import '../css/NavBar.css'
-import {Link} from 'react-scroll'
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 
 function NavBar() {
 
   const [click, setClick] = useState(false)
+  const {params} = useParams()
+
+  console.log({params})
+
 
   const handleClick = () => {
     setClick(!click)
@@ -17,36 +21,24 @@ function NavBar() {
   return (
     <div className='header'>
         <nav className='navbar'>
-
-            {/* <a href='/'> */}
-                {/* <img
-                    alt='Danielle Hoey' 
-                    src='whitelogo.png'
-                    className='avatar'
-                /> */}
-            {/* </a> */}
             
             <ul className={click ? "nav-menu active" : "nav-menu"}>
                 
                 <li className='nav-item'>
-                    {/* <Link to='title' spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}> */}
-                    <a href='/' onClick={closeMenu}>
+                    <a href='/' className={params} onClick={closeMenu}>
                         home
                     </a>
-                    {/* </Link> */}
                 </li>
                 
                 <li className='nav-item'>
-                    {/* <Link to='about' spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}> */}
-                    <a href='/about' onClick={closeMenu}>
+                    <a href='/about' className={params} onClick={closeMenu}>
                         about
                     </a>
-                    {/* </Link> */}
                 </li>
 
                 <li className='nav-item'>
                     {/* <Link to='projects' spy={true} smooth={true} offset={-120} duration={500} onClick={closeMenu}> */}
-                    <a href='/projects' onClick={closeMenu}>
+                    <a href='/projects' className={params} onClick={closeMenu}>
                         projects
                     </a>
                     {/* </Link> */}
@@ -54,7 +46,7 @@ function NavBar() {
 
                 <li className='nav-item'>
                     {/* <Link to='skills' spy={true} smooth={true} offset={-120} duration={500} onClick={closeMenu}> */}
-                    <a href='/skills' onClick={closeMenu}>
+                    <a href='/skills' className={params} onClick={closeMenu}>
                         skills
                     </a>
                     {/* </Link> */}
@@ -62,7 +54,7 @@ function NavBar() {
 
                 <li className='nav-item'>
                     {/* <Link to='contact' spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}> */}
-                    <a href='/contact' onClick={closeMenu}>
+                    <a href='/contact' className={params} onClick={closeMenu}>
                         contact
                     </a>
                     {/* </Link> */}
